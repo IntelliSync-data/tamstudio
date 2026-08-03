@@ -32,7 +32,7 @@ jobs:
           port: 21
           security: loose
           server-dir: ${{ vars.LANDING_PAGE_TAMSTUDIO_TARGET_DIR }}
-          local-dir: ./source-main/
+          local-dir: 
           timeout: 60000
           exclude: |
             **/.git*
