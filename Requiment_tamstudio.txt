@@ -1,0 +1,271 @@
+Mình đã đọc file bạn gửi  — nội dung khá “raw”, nhưng đủ để mình chuyển thành **requirement rõ ràng cho dev + định hướng landing page chuẩn chỉnh (có thể bán được)**.
+
+Dưới đây là bản bạn có thể **đưa thẳng cho dev + designer + content team** 👇
+
+---
+
+# 🚀 1. Mục tiêu website (rất quan trọng – dev cần hiểu)
+
+**Domain:** tamstudio.com.vn
+**Loại site:** Landing page / Website giới thiệu dịch vụ
+
+### 🎯 Mục tiêu:
+
+* Giới thiệu TamStudio là **production house chuyên nghiệp**
+* Tăng độ tin cậy (social proof)
+* Thu lead (khách hàng doanh nghiệp cần làm video, TVC, âm thanh, sự kiện)
+
+👉 Tóm lại: **Không chỉ là website giới thiệu → mà là website bán dịch vụ B2B**
+
+---
+
+# 🧩 2. Cấu trúc trang (Site Structure)
+
+## 2.1 Trang chính (Single Landing Page)
+
+👉 Scroll 1 page, gồm các section:
+
+---
+
+### 1. Hero Section (Trang đầu)
+
+**Nội dung:**
+
+* Headline:
+  👉 “Touching on Top – Giải pháp sản xuất nội dung & âm thanh chuyên nghiệp”
+* Subheadline:
+  👉 “TVC – Phim – Nhạc – Sự kiện trọn gói”
+* CTA:
+
+  * “Nhận tư vấn”
+  * “Xem portfolio”
+
+**Yêu cầu dev:**
+
+* Background video hoặc motion (cinematic feel)
+* CTA button scroll xuống contact
+
+---
+
+### 2. About (Giới thiệu)
+
+**Nội dung từ doc:**
+
+* Slogan: “Touching on Top”
+* Founder: Nhạc sĩ **Phạm Hữu Tâm**
+* Đối tác:
+
+  * Cát Tiên Sa
+  * M&T Pictures
+  * HTV
+  * Dentsu…
+
+**Yêu cầu dev:**
+
+* Layout: 2 cột (text + hình/video)
+* Logo đối tác dạng slider
+
+---
+
+### 3. Services (Dịch vụ)
+
+Chia rõ 4 nhóm:
+
+#### 🎬 Film Production
+
+* Phim điện ảnh
+* Phim truyền hình
+* Phim tài liệu
+* Short film
+
+#### 📺 TVC & Media
+
+* Quảng cáo
+* Trailer
+* Intro/Outro
+* Show truyền hình
+
+#### 🎵 Music & Audio
+
+* Nhạc nền
+* Final mix
+* Sound design
+
+#### 🎤 Event & Casting
+
+* Casting
+* Event production
+
+**Yêu cầu dev:**
+
+* Grid 4 block (icon + hover effect)
+* Click → mở popup / page detail
+
+---
+
+### 4. Portfolio (Quan trọng nhất)
+
+**Doc ghi:** “Em post video clip lên”
+
+👉 Cần làm chuẩn:
+
+**Yêu cầu dev:**
+
+* Grid video (YouTube/Vimeo embed)
+* Filter:
+
+  * TVC
+  * Film
+  * Music
+  * Event
+* Click → popup video
+
+---
+
+### 5. Social Proof (nên thêm – không có trong doc nhưng BẮT BUỘC)
+
+👉 Đây là phần giúp bán được
+
+**Nội dung:**
+
+* Logo khách hàng
+* Case study (nếu có)
+* Testimonials
+
+---
+
+### 6. CTA Section
+
+👉 Kéo khách hành động
+
+* “Bạn cần sản xuất TVC / phim / nhạc?”
+* Button: “Nhận báo giá”
+
+---
+
+### 7. Contact
+
+**Từ doc:**
+
+* Địa chỉ: 34/10 Trần Khánh Dư, Q1
+* Phone
+* Email
+
+**Yêu cầu dev:**
+
+* Form:
+
+  * Tên
+  * SĐT
+  * Email
+  * Nhu cầu
+* Google Map embed
+* Nút gọi nhanh (mobile)
+
+---
+
+# ⚙️ 3. Yêu cầu kỹ thuật cho dev
+
+## 3.1 Frontend
+
+* Responsive (mobile-first)
+* Tốc độ load nhanh (video lazy load)
+* Animation nhẹ (fade, parallax)
+
+## 3.2 Backend (nếu cần)
+
+* Form gửi về email / CRM
+* CMS đơn giản để:
+
+  * Upload video portfolio
+  * Edit nội dung
+
+👉 Gợi ý stack:
+
+* NextJS / Nuxt / Webflow (nếu muốn nhanh)
+* Hoặc WordPress + Elementor (dễ quản lý)
+
+---
+
+## 3.3 SEO cơ bản
+
+* Title: TamStudio – Production House Vietnam
+* Meta description
+* Schema Organization
+
+---
+
+## 3.4 Tracking
+
+* Google Analytics
+* Facebook Pixel
+
+---
+
+# 🎨 4. Style & Design Direction (rất quan trọng)
+
+## Tone:
+
+* Cinematic
+* Premium
+* Creative agency
+
+## Màu:
+
+* Đen / xám / trắng
+* Accent: vàng hoặc đỏ
+
+## Font:
+
+* Sans-serif hiện đại (Montserrat / Poppins)
+
+---
+
+# ⚠️ 5. Những thứ thiếu trong doc (bạn nên yêu cầu khách bổ sung)
+
+Đây là phần quan trọng nhất về business:
+
+👉 Bạn nên hỏi khách:
+
+1. Portfolio video cụ thể (link)
+2. Case study (nếu có)
+3. Giá dịch vụ / range
+4. Quy trình làm việc
+5. USP (điểm khác biệt so với production khác)
+
+---
+
+# 💡 6. Nâng cấp (nếu bạn muốn làm ngon hơn đối thủ)
+
+👉 Thêm:
+
+* Blog / Insight về sản xuất video
+* Landing page riêng cho:
+
+  * TVC
+  * Doanh nghiệp
+* Chatbot tư vấn
+
+---
+
+# 🔥 Kết luận (nói thẳng như làm dự án thật)
+
+File doc này:
+👉 **Mới chỉ là outline rất sơ khai**
+
+Bạn đã:
+
+* Biến nó thành **website có thể bán hàng**
+* Có đủ:
+
+  * Structure
+  * UX
+  * Tech requirement
+
+---
+
+Nếu bạn muốn, mình có thể:
+👉 Viết luôn **wireframe (UI chi tiết từng section)**
+👉 Hoặc **copywriting chuẩn chuyển đổi (landing page bán dịch vụ thật sự)**
+
+Chỉ cần nói: *“viết content bán hàng cho tamstudio”* là mình làm full cho bạn 👍
